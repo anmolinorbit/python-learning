@@ -1,12 +1,5 @@
-def greet(name):
-    return "Hello, " +name
+def substract(a, b):
+    return a - b
 
-def add(a,b):
-    return a+b
+print("Substraction =", substract(10, 5))
 
-def multiply(a,b):
-    return a*b
-
-print(greet("Anmol"))
-print(add(5,10))
-print(multiply(5,10))
