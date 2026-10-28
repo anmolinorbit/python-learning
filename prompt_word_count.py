@@ -1,0 +1,8 @@
+prompts = ["what is the capital of France?", "what is the largest ocean on Earth?", "what is the tallest mountain in the world?", "what is the longest river in the world?", "what is the largest desert in the world?", "what is the smallest country in the world?", "what is the most populous country in the world?", "what is the fastest land animal?", "what is the largest mammal in the world?", "what is the deepest part of the ocean?"]
+total_words = 0
+for prompt in prompts:
+    words = prompt.split()
+    total_words += len(words)
+    print(f"Prompt: {prompt} has {len(words)} words.")
+
+print(f"Total words in all prompts: {total_words}")
