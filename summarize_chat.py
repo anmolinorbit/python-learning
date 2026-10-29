@@ -1,4 +1,4 @@
-chat_history = [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "Please write a Python function that counts the number of words in a given string."}, {"role": "system", "content": "Sure! Here is a Python function that counts the number of words in a given string:"}]
+chat_history = [{"role": "system", "content": "You are a helpful assistant."}, {"role": "user", "content": "Please write a Python function that counts the number of words in a given string."}, {"role": "assistant", "content": "Sure! Here is a Python function that counts the number of words in a given string:"}]
 
 total_messages = len(chat_history)
 user_count = 0
