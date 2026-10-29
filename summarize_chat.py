@@ -6,7 +6,7 @@ assistant_count = 0
 for message in chat_history:
     if message["role"] == "user":
         user_count += 1
-    elif message["role"] == "system":
+    elif message["role"] == "assistant":
         assistant_count += 1
 
 last_message_object = chat_history[-1]
