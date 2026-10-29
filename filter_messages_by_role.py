@@ -1,0 +1,5 @@
+chat_history = [{"role": "user", "content": "Hello! How can I assist you today?"}, {"role": "assistant", "content": "Hi there! How can I help you?"}, {"role": "user", "content": "I need some information about your services."}, {"role": "assistant", "content": "Sure! We offer a variety of services including web development, mobile app development, and digital marketing. What specific information are you looking for?"}, {"role": "user", "content": "I'm interested in your web development services. Can you provide more details?"}, {"role": "assistant", "content": "Absolutely! Our web development services include custom website design, e-commerce solutions, content management systems, and responsive web design. We use the latest technologies to ensure your website is fast, secure, and user-friendly. Would you like to know about our pricing or see some examples of our work?"}]
+
+for message in chat_history:
+    if message["role"] == "user":
+        print(message["content"])
